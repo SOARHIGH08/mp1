@@ -70,7 +70,7 @@
     transform: scale(0.9, 0.9);
 }
 
-.features-section .page-wrapper a{
+.features-section .page-wrapper .showFormBtn{
     margin: 10vh auto;
 }
 

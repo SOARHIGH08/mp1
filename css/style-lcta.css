@@ -20,6 +20,11 @@
     height: 50%;
 }
 
+.call-to-action-section .page-wrapper h1{
+    text-align: center;
+    margin: 0 10px;
+}
+
 .call-to-action-section .page-wrapper .last-cta-buts{
     width: calc(1.5 * 140px);
     height: calc(1.3 * 50px);
