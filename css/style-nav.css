@@ -104,3 +104,10 @@ nav ul li a:active{
     background-color: #1b1a1a;
     color: white;
 }
+
+@media screen and (max-width: 650px){
+    .navLinks, .logo-text{
+        color: black;
+    }
+    
+}
