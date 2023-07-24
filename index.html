@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <script>
+        var cssVersion = '3'; // Updated version number
     
+        // Function to set the CSS file version dynamically
+        function setCSSVersion() {
+          var links = document.querySelectorAll('link[rel="stylesheet"]');
+          for (var i = 0; i < links.length; i++) {
+            var href = links[i].getAttribute('href');
+            links[i].setAttribute('href', href + '?v=' + cssVersion);
+          }
+        }
+    
+        // Call the function to set the CSS file version when the page loads
+        window.addEventListener('load', setCSSVersion);
+      </script>
+
     <!-- icons -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     
@@ -39,7 +55,7 @@
     <section class="section hero-section" id="heroSection">            
         <div class="page-wrapper">
             <div class="text">
-                <h1>UNDERSTANDING</h1>
+                <h1>UNDERSTANDING!!!</h1>
                 <h1>OTHER PEOPLE</h1>
                 <h2>by knowing the basic personalities</h2>
                 <p>91,607 people have been helped by our counseling</p>
